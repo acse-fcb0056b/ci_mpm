@@ -26,8 +26,8 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install flake8
+        pip install pep8
 
-    - name: Lint with flake8
+    - name: Lint with pep8
       run: |
-        flake8 .
+        pep8 .
